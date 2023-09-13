@@ -4,10 +4,7 @@
     {
       "Action": ["ec2:DescribeInstances", "ec2:DescribeRegions"],
       "Effect": "Allow",
-      "Resource": "*",
-      "Condition": {
-        "StringEquals": { "aws:ResourceTag/red-hat-managed": "true" }
-      }
+      "Resource": "*"
     }
   ]
 }

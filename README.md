@@ -28,6 +28,8 @@
 
 2. The installer role cannot be scoped to a resource tag as the resources required to be tagged do no exist nor do the tags, this role will have to be scoped to minimum permissions
 3. Support and Operator Roles can be scoped to a the resource tag *"StringEquals": { "aws:ResourceTag/red-hat-managed": "true" }*   **TESTING STILL**
+   1. Some Q's regarding cloudtrail/watch with the resource tag condition
+   2. 
 
     
 
